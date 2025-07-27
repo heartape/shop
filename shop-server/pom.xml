@@ -36,6 +36,38 @@
             <artifactId>shop-store</artifactId>
         </dependency>
         <dependency>
+            <groupId>com.heartape</groupId>
+            <artifactId>shop-product</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.heartape</groupId>
+            <artifactId>shop-member</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.heartape</groupId>
+            <artifactId>shop-payment</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.heartape</groupId>
+            <artifactId>shop-logistics</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.heartape</groupId>
+            <artifactId>shop-inventory</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.heartape</groupId>
+            <artifactId>shop-order</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.heartape</groupId>
+            <artifactId>shop-marketing</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.heartape</groupId>
+            <artifactId>shop-data</artifactId>
+        </dependency>
+        <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
@@ -84,7 +116,7 @@
     </dependencies>
 
     <build>
-        <finalName>shop-${project.artifactId}</finalName>
+        <finalName>${project.artifactId}</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>

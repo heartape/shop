@@ -1,6 +1,6 @@
-package com.heartape.controller;
+package com.heartape.shop.domain.store;
 
-import com.heartape.domain.store.Store;
+import com.heartape.shop.store.Store;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
